@@ -1,0 +1,18 @@
+//dia de la semana
+#include <iostream>
+using namespace std;
+int main(){
+    int dia;
+    cin >> dia;
+    switch (dia){
+        case 1: cout << "miercoles"; break;
+        case 2: cout << "jueves"; break;
+        case 3: cout << "viernes"; break;
+        case 4: cout << "sabado"; break;
+        case 5: cout << "domingo"; break;
+        case 6: cout << "lunes"; break;
+        case 7: cout << "martes"; break;
+        default: cout << "ERROR";
+    }
+    return 0;
+}

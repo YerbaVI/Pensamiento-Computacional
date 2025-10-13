@@ -1,0 +1,33 @@
+// llamadas telefonicas
+#include <iostream>
+using namespace std;
+int main (){
+    int p;
+    double m;
+    cout << "12 AMÉRICA DEL NORTE"<<endl;
+    cout << "15 AMÉRICA CENTRAL"<<endl;
+    cout << "18 AMÉRICA DEL SUR"<<endl;
+    cout << "19 EUROPA"<<endl;
+    cout << "23 ASIA"<<endl;
+    cout << "25 ÁFRICA"<<endl;
+    cout << "29 OCEANÍA"<<endl;
+    cin >>p>>m;
+    switch (p){
+        case 12:cout << "monto a pagar: "<< 2*m    <<endl;
+        break;
+        case 15:cout << "monto a pagar: "<< 2.2*m  <<endl;
+        break;
+        case 18:cout << "monto a pagar: "<< 4.5*m  <<endl;
+        break;
+        case 19:cout << "monto a pagar: "<< 3.5*m  <<endl;
+        break;
+        case 23:cout << "monto a pagar: "<< 6*m    <<endl;
+        break;
+        case 25:cout << "monto a pagar: "<< 6*m    <<endl;
+        break;
+        case 29:cout << "monto a pagar: "<< 5*m    <<endl;
+        break;
+    }
+
+    return 0;
+}

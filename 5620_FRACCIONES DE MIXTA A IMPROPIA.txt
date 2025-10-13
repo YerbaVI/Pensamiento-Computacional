@@ -1,0 +1,11 @@
+//fracciones de mixta a impropia
+#include <iostream>
+using namespace std;
+int main (){
+    int a,b,c,r;
+    cout << "ingrese las variables: ";
+    cin >> a >> b >> c;
+    r = (a*c)+b;
+    cout << r << "/" << c;
+    return 0;
+}

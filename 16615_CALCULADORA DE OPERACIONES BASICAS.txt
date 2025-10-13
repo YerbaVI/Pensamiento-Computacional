@@ -1,0 +1,35 @@
+//Calculadora de operaciones basicas
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    float x,y;
+    int op;
+    cout << "1.- Suma" << endl;
+    cout << "2.- Resta" << endl;
+    cout << "3.- Multiplicación" << endl;
+    cout << "4.- Divición" << endl;
+    cout << "5.- Factorial" << endl;
+    cout << "6.- Potencia" << endl;
+    cout << "7.- Salir" << endl;
+    cin >> op;
+    switch (op){
+        case 1: cin >> x >>y;
+        cout <<"La respuesta es: "<< x+y << endl;
+        break;
+        case 2: cin >> x >>y;
+        cout <<"La respuesta es: "<< x-y << endl;
+        break;
+        case 3: cin >> x >>y;
+        cout <<"La respuesta es: "<< x*y << endl;
+        break;
+        case 4: cin >> x >>y;
+        cout <<"La respuesta es: "<< x/y << endl;
+        break;
+        case 6: cin >> x >>y;
+        cout <<"La respuesta es: "<< pow(x, y) << endl;
+        break;
+        case 7: cout <<"Adíos"<< endl;
+    }
+    return 0;
+}
