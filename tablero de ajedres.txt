@@ -1,0 +1,22 @@
+//tablero de ajedres
+#include <iostream>
+#include <locale>
+using namespace std;
+
+int main() {
+    int i,n,j;
+    cin>>n;
+    for (i=1; i<=n; i++)
+    {
+        cout<<endl;
+        for (j=1; j<=n; j++){
+         if ((i+j)%2==0   ){
+                cout << " B ";
+            }
+            else {
+                cout << " N ";
+        }
+    }
+    }
+    return 0;
+}
