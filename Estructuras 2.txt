@@ -1,0 +1,18 @@
+//Estructuras 2
+#include <iostream>
+using namespace std;
+struct Libro{
+    int codigo;
+    string nombre;
+};
+int main (){
+    Libro estudiante;
+    cout << "Ingrese el codigo: ";
+    cin >> estudiante.codigo;
+    cout << "Ingrese el nombre del libro: ";
+    cin >> estudiante.nombre;
+
+    cout << "El codigo del libro es: " << estudiante.codigo << endl;
+    cout << "El nombre del libro es: " << estudiante.nombre << endl;
+    return 0;
+}

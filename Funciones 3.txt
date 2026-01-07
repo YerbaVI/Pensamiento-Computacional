@@ -1,0 +1,17 @@
+//funciones 3
+//Sumar los primeros n numeros naturales
+#include <iostream>
+using namespace std;
+int Suma(int n){
+    if(n==1){
+        return 1;
+    }
+    else{
+        return n+Suma(n-1);
+    }
+}
+int main(){
+    int n;
+    cin>>n;
+    cout<<"La suma de los primeros "<<n<<" numeros naturales es: "<<Suma(n);
+}

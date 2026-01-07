@@ -1,0 +1,20 @@
+//Estructuras 5
+#include <iostream>
+using namespace std;
+struct texto{
+    int codigo;
+    string nombre;
+};
+void salida_libros(texto atributos){
+    cout << atributos.codigo << endl;
+    cout << atributos.nombre << endl;
+}
+int main (){
+    texto campos;
+    cout << "Ingrese el codigo del texto: " << endl;
+    cin >> campos.codigo;
+    cout << "Ingrese el nombre del texto: " << endl;
+    cin >> campos.nombre;
+    salida_libros(campos);
+    return 0;
+}

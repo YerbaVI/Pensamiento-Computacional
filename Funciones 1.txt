@@ -1,0 +1,25 @@
+//funciones 1
+//Suma, resta, mmultiplicacion con funciones
+#include <iostream>
+using namespace std;
+int Suma(int a,int b){
+    return a+b;
+}
+int Resta(int a,int b){
+    return a-b;
+}
+int Multiplicacion(int a,int b){
+    return a*b;
+}
+
+int main(){
+    int S,R,M,a,b;
+    cin>>a>>b;
+    S=Suma(a,b);
+    R=Resta(a,b);
+    M=Multiplicacion(a,b);
+    cout<<"La suma es: "<<S<<endl;
+    cout<<"La resta es: "<<R<<endl;
+    cout<<"La multiplicación es: "<<M<<endl;
+    return 0;
+}
